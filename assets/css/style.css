@@ -272,7 +272,7 @@ input[type=submit] {
   }
 }
 
-/*Media Query for Mobile(768px)*/
+/*Media Query for Tablet (768px)*/
 
 @media only screen and (max-width: 768px){
   
@@ -346,7 +346,7 @@ input[type=submit] {
   }
 }
 
-/*Pixel */
+/*Pixel*/
 
 @media only screen and (max-width:411px){
   nav{
