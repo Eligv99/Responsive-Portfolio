@@ -230,7 +230,7 @@ input[type=submit] {
 
 /* Media Queries for Desktop (908px)*/
 
-@media screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) {
 
   #masthead {
     position: static;
@@ -274,7 +274,7 @@ input[type=submit] {
 
 /*Media Query for Tablet (768px)*/
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   
   .main-section{
     margin-bottom: 51%;
@@ -289,6 +289,7 @@ input[type=submit] {
 
 /*Media Query for (640px)*/
 @media only screen and (max-width: 640px){
+  
   #masterhead{
     width: 100%;
 
@@ -323,30 +324,25 @@ input[type=submit] {
   }
 }
 
-/*Media Queries for diffrent divices*/
 
-/*Galaxy S5*/
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width:414px){
   nav{
-    margin-right:53%;
+    margin-right:50%;
   }
   img{
-    
     width: 104%;
-    height: 38%;
+    height: 30%;
   }
   #about-me{
     position: absolute;
-    height: 193%;
+    height: 166%;
   }
   footer{
     margin-top: 252%;
     position: sticky;
   }
 }
-
-/*Pixel*/
 
 @media only screen and (max-width:411px){
   nav{
@@ -367,8 +363,6 @@ input[type=submit] {
   }
 }
 
-/*Iphoe 6/7/8*/
-
 @media only screen and (max-width:375px){
   nav{
     margin-right:50%;
@@ -386,22 +380,25 @@ input[type=submit] {
     position: sticky;
   }
 }
-/*Iphoe 6/7/8 Plus*/
 
-@media only screen and (max-width:414px){
+@media only screen and (max-width:360px){
   nav{
-    margin-right:50%;
+    margin-right:53%;
   }
   img{
+    
     width: 104%;
-    height: 30%;
+    height: 38%;
   }
   #about-me{
     position: absolute;
-    height: 166%;
+    height: 193%;
   }
   footer{
     margin-top: 252%;
     position: sticky;
   }
 }
+
+
+
