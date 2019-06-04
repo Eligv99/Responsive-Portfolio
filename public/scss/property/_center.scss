@@ -1,0 +1,107 @@
+ul{ 
+    list-style-type: none;
+}
+
+.rotate{
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+.socialmedia {
+    position: fixed;
+    top: 325px;
+    right: -146px;
+    font-size: 21px;
+    z-index: 99;
+}
+
+ul, li {
+    display: inline-block;
+}
+
+.socialmedia ul li a {
+    color: lightslategray;
+    margin-right: 2em;
+    text-decoration: none;
+    z-index: 1;
+    font-family: 'Inconsolata', monospace;
+}
+
+.socialmedia ul li a:hover{
+    text-decoration: line-through;
+    font-size: 24px;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+
+.x-one { 
+    opacity: 0.5;
+    z-index: 0;
+    font-size: 8em;
+    top: 84%;
+    left: 7em;
+    position: absolute;
+    font-weight: bolder;
+    color: lightslategray;
+    transform: translate3d(0px, -148px, 0px);
+}
+
+.x-two {
+    opacity: 0.5;
+    z-index: 0;
+    font-size: 8em;
+    top: 39%;
+    left: 37%;
+    position: absolute;
+    font-weight: bolder;
+    color: lightslategray;
+    transform: translate3d(0px, -148px, 0px);
+
+}
+
+.x-three {
+    opacity: 0.5;
+    z-index: -1;
+    font-size: 8em;
+    top: 102%;
+    left: 18%;
+    position: absolute;
+    font-weight: bolder;
+    color: lightslategray;
+}
+
+.x-four {   
+    opacity: 0.5;
+    z-index: -1;
+    font-size: 8em;
+    top: 165%;
+    left: 68%;
+    position: absolute;
+    font-weight: bolder;
+    color: lightslategray;
+}
+
+.x-five {
+    opacity: 0.5;
+    z-index: -1;
+    font-size: 8em;
+    top: 193%;
+    left: 16%;
+    position: absolute;
+    font-weight: bolder;
+    color: lightslategray;
+
+}
+
+.x-six {
+    opacity: 0.5;
+    z-index: -1;
+    font-size: 8em;
+    top: 258%;    
+    left: 76%;
+    position: absolute;
+    font-weight: bolder;
+    color: lightslategray;
+
+}
+

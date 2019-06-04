@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Eliezer Vazquez | Portfolio 2019</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amiko:600|Inconsolata|Overpass+Mono|Staatliches|Tauri&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+
+  <header id="masthead">
+    <img id="logo" src="./images/logo.png" />
+  </header>
+
+  <div class="loader">
+
+    <img class="loader img" src="./images/logo.png"/>
+
+  </div>
+  
+
+  <div class="pres">
+
+    <!-- Intro -->
+    <h2 class="font_one hp">HELLO. </br> MY NAME IS </br> ELIEZER.</h2>
+
+    <!-- Explains what I am -->
+    <p class="info_about">Ambitious Front-End Developer living </br> in the greater area of New York.</p>
+
+    <!-- Social media list -->
+    <div class="socialmedia">
+
+      <ul class="rotate">
+        <li> <a href="https://www.linkedin.com/in/eliezer-vazquez-3009b8174/">LINKEDIN</a> </li>
+        <li> <a href="https://github.com/Eligv99">GITHUB</a> </li>
+        <li> <a href="">CONTACT</a> </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+  <!-- Items for ilusion -->
+
+  <div class="x  x-one">E</div>
+
+  <div class="x  x-two">D</div>
+
+  <div class="x  x-three">S</div>
+
+  <div class="x  x-four">I</div>
+
+  <div class="x  x-five">G</div>
+
+  <div class="x  x-six">N</div>
+
+  
+  <div id="main-container" class="container">
+
+    <section id="about-me" class="main-section">
+
+      <h1>ABOUT_MYSELF_ : </h1>
+
+      <p>
+        My name is Eliezer Giovanni Vazquez Figueroa. I was born on December 27, 1999, in Bellvile, New Jersey but when I was four years old I moved to the small but amazing island of Puerto Rico. I lived in Puerto Rico for 13 years. I speak two languages, English and Spanish, very fluent on both. I love to do many things from sleeping to watching sports. My favorite hobbie is considered to be playing my favorite sport which is soccer. A year ago I moved to this country and learned to live under this culture and life style. After I graduated from North Arlington High School, I started to work in a Auto Body Shop and I have decided to take a turn in life with this course to create my own legacy.
+      </p>
+
+
+      <div class="skill-block">
+
+        <h3>Skills</h3>
+
+        <ul class="skill-list">
+
+          <li><span class="first-t">Web Design</span></li>
+          </br>
+          <li><span class="second-t">Front-End Dev</span></li>
+
+        </ul>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div id="main-container" class="container">
+
+      <section id="about-me" class="main-section">
+  
+        <h1>WORK_: </h1>
+  
+        <p>
+          My name is Eliezer Giovanni Vazquez Figueroa. I was born on December 27, 1999, in Bellvile, New Jersey but when I was four years old I moved to the small but amazing island of Puerto Rico. I lived in Puerto Rico for 13 years. I speak two languages, English and Spanish, very fluent on both. I love to do many things from sleeping to watching sports. My favorite hobbie is considered to be playing my favorite sport which is soccer. A year ago I moved to this country and learned to live under this culture and life style. After I graduated from North Arlington High School, I started to work in a Auto Body Shop and I have decided to take a turn in life with this course to create my own legacy.
+        </p>
+  
+  
+        <div class="skill-block">
+  
+          <h3>Skills</h3>
+  
+          <ul class="skill-list">
+  
+            <li><span class="first-t">Web Design</span></li>
+            </br>
+            <li><span class="second-t">Front-End Dev</span></li>
+  
+          </ul>
+        </div>
+  
+      </section>
+  
+    </div>
+  
+
+  <!-- <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer> -->
+
+  <!-- Jquery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>  
+
+  <script>
+  
+    console.log($(window).scrollTop())
+
+    $("document").ready(function(){
+
+      var itemOne = $('x-one'),
+      itemTwo = $('div.x-two'),
+      itemThree = $('div.x-three'),
+      itemFour = $('div.x-four'),
+      itemFive = $('div.x-five'),
+      itemSix = $('div.x-six'),
+
+      document = $(window);
+
+      
+
+      if (document.scrollTop() > 100 ){
+
+        itemOne.animate({
+          "opacity":"1"
+        })
+        
+
+      } 
+      else if(document.scrollTop() > 0 ){
+
+        itemTwo.animate({
+          "opacity":"1"
+        })
+
+      } 
+      else if(document.scrollTop() > 200 ){
+
+        itemThree.animate({
+          "opacity":"1"
+        })
+
+      } 
+      else if(document.scrollTop() > 300 ){
+
+        itemFour.animate({
+          "opacity":"1"
+        })
+
+      } 
+      else if(document.scrollTop() > 400){
+
+        itemFive.animate({
+          "opacity":"1"
+        })
+
+      } 
+      else if(document.scrollTop() > 500 ){
+
+        itemSix.animate({
+          "opacity":"1"
+        })
+
+      }
+      
+      // PAGE ON LOAD
+      setTimeout(function(){ 
+        
+        $("div.loader img").animate({
+
+          "opacity":"0"
+
+        }) 
+    
+    
+      }, 1500);
+
+      setTimeout(function(){ 
+        
+        $("div.loader").animate({
+
+          "top":"940px"
+
+        }) 
+
+    
+    
+      }, 2000);
+
+
+
+    });
+
+  
+  </script>
+
+</body>
+
+</html>

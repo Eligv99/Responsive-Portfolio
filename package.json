@@ -1,0 +1,27 @@
+{
+  "name": "responsive-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js", 
+    "scss": "node-sass --include-path scss public/scss/main.scss public/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run scss\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eligv99/Responsive-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eligv99/Responsive-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Eligv99/Responsive-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "path": "^0.12.7"
+  }
+}

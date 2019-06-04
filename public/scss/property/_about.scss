@@ -1,0 +1,70 @@
+.main-section h1{
+    padding-bottom: 20px;
+    font-size: 60px;
+    float: left;
+    margin-left: 1em;
+    color: brown;
+    font-family: 'Tauri', sans-serif;
+    line-height: 49px;
+}
+
+.main-section p{
+    float: left;
+    width: 24em;
+    height: 16em;
+    clear: left;
+    margin-top: 2em;
+    margin-bottom: 18em;
+    font-family: 'Inconsolata', monospace;
+    margin-left: 8em;
+
+}
+
+.skill-block{
+    position: relative;
+    top: 185px;
+    width: 22em;
+    height: 16em;
+    right: -1010px;;
+    background-color: #022a3d;
+    font-size: 21px;
+    z-index: 1;
+    box-shadow: 0 0 75px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.22);
+}
+
+.skill-block h3 {
+    position: absolute;
+    left: 2em;
+    font-size: 40px;
+}
+
+.skill-list{
+    position: relative;
+    top: -34em;
+    line-height: 3em;
+    left: 2em;
+    font-family: "Inconsolata", monospace;
+}
+
+.first-t::after {
+    content: '';
+    width: 65%;
+    height: 7px;
+    position: absolute;
+    bottom: 86px;
+    left: 35px;
+    z-index: -1;
+    background-color: brown;
+}
+ 
+.second-t::after {
+    content: '';
+    width: 80%;
+    height: 7px;
+    position: absolute;
+    bottom: 23px;
+    left: 37px;
+    z-index: -1;
+    background-color: brown;
+}
+
