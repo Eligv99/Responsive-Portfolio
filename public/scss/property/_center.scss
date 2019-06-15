@@ -9,9 +9,8 @@ ul{
 
 .socialmedia {
     position: fixed;
-    top: 325px;
-    right: -146px;
-    font-size: 21px;
+    top: 250px;
+    right: -120px;;
     z-index: 99;
 }
 
@@ -36,7 +35,7 @@ ul, li {
 
 .x-one { 
     opacity: 0.5;
-    z-index: 0;
+    z-index: -1;
     font-size: 8em;
     top: 84%;
     left: 7em;
@@ -85,7 +84,7 @@ ul, li {
     opacity: 0.5;
     z-index: -1;
     font-size: 8em;
-    top: 193%;
+    top: 186%;    
     left: 16%;
     position: absolute;
     font-weight: bolder;
@@ -97,7 +96,7 @@ ul, li {
     opacity: 0.5;
     z-index: -1;
     font-size: 8em;
-    top: 258%;    
+    top: 228%;    
     left: 76%;
     position: absolute;
     font-weight: bolder;

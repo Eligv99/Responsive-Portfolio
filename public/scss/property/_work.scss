@@ -1,39 +1,40 @@
-// .work {
-//     position: relative;
-//     float: left;
-//     width: 274px;
-//     margin: 20px 0 25px;
-// }
+.main-section img{
+    width: 23em;
+    position: relative;
+    top: 12em;
+    z-index: -1;
+}
 
-// .work:nth-child(even) {
-//     margin-right: 40px;
-// }
+.work p{
+    font-size: 4em;
+    color: brown;
+    padding-left: 1em;
+    padding-top: 1em;
+    font-family: 'Inconsolata', monospace;
+}
 
-// .work img {
-//     width: 100%;
-//     border: 0 none;
-//     opacity: 0.8;
-// }
+img.second {
+    width: 23em;
+    position: relative;
+    top: 11em;
+    left: 37em;
+}
 
-// .work h3 {
-//     position: absolute;
-//     left:8px;
-//     bottom: 20px;
-//     width: 100%;
-//     padding: 15px;
-//     margin-bottom: 0;
-//     font-weight: 300;
-//     line-height: 30px;
-//     color: #ffffff;
-//     text-align: center;
-//     background: #4aaaa5;
-//     border-bottom: 0;
-// }
+.first:hover{
+    opacity: 0.5;
+}
 
-// .auth-image {
-//     float: left;
-//     width: 200px;
-//     height: auto;
-//     margin-top: 10px;
-//     margin-right: 25px;
-// }
+.second:hover{
+    opacity: 0.5;
+}
+
+
+
+p.second-text {
+    font-size: 4em;
+    color: lightslategray;
+    padding-left: 7em;
+    padding-top: 1em;
+    font-family: 'Inconsolata', monospace;
+}
+

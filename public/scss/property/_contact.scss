@@ -1,4 +1,26 @@
-/* contact page */
+.contact h1{
+    padding-bottom: 23px;
+    font-size: 50px;
+    float: inherit;
+}
+
+.contact {
+    top: 33em;
+    left: 10em;
+    margin-right: 171px;
+    position: relative;
+    color: lightslategrey;
+}
+
+h2.contact-t {
+    font-size: 2em;
+}
+
+h1.contact-t {
+    padding-bottom: 23px;
+    font-size: 50px;
+    float: none;
+}
 
 #contact-form ul {
     margin-bottom: 20px;
@@ -13,28 +35,51 @@ input[type=text],
 input[type=email],
 textarea {
     display: block;
-    width: 100%;
+    width: 88%;
 }
 
 input[type=text],
 input[type=email],
 textarea {
-    height: 35px;
+    height: 34px;
     padding: 0 10px;
-    font-size: 14px;
+    font-size: 13px;
     border: 1px solid #dddddd;
 }
 
 textarea {
-    height: 200px;
+    height: 135px;
 }
 
 input[type=submit] {
-    padding: 10px 30px;
+    padding: 12px 30px;
     font-size: 18px;
     color: #ffffff;
+    margin-top: 1em;
     cursor: pointer;
-    background: #4aaaa5;
-    border: 0 none;
-   }
+    background: brown;
+    border: 0 none;   
+}
       
+
+.conclusion-t {
+    margin-left: 1em;
+    top: -13em;
+    width: 3em;
+    height: 0em;
+    font-size: 2em;
+    position: relative;
+}
+
+.conclusion-t h3{
+    width: 17em;
+    line-height: 158%;
+    font-size: 5vw;
+    margin-top: 14em;
+    margin-left: 42%;
+    font-family: 'Tauri', sans-serif;
+}
+
+.color-brown{
+    color:brown
+}

@@ -1,187 +1,112 @@
-/* Media Queries for Desktop (908px)*/
 
-@media only screen and (max-width: 980px) {
 
-    #masthead {
-      position: static;
-      margin: -8px 1px -55px;
-    }
-     .main-section{
-      margin-bottom: 51%;
-      margin-top: 0;
-      margin-left: 55px;
-      width: 67%;
-      height: 64%;
-    }
-    p{
-      font-size:smaller;
-    }
-    #logo {
-      width: 31%;
-      font-size: 140%;
-      margin-left: 6%;
-    }
-    #portfolio{
-      width:70%;
-      margin-bottom:3%;
-    }
-    input[type=submit]{
-      margin:10px;
-      margin-left:0;
-    }
-    nav {
-      width: 39%;
-      margin-top: 3%;
-    }
-    img {
-      width: 38%;
-    }
-    footer{
-      width:100%;
-    }
-}
+// @media only screen and (max-width: 1440px) {
+
+//     .socialmedia{
+//         right: -66px;
+//     }
+
+//     #logo{
+//         margin-left: 6em;
+//         margin-top: 54px;    
+//     }
+
+//     p.info_about {
+//         left: -17%;
+//         top: 10em;    
+//     }
+
+//     .pres {
+//         left: 38em;
+//         top: -1em;    
+//     }
+
+//     .x{
+//         display:none;
+//     }
+    
+//     .skill-block{
+//         right: -2237px;    
+//     }
+
+//     .contact{
+//         left: 44em;    
+//     }
+
+//     footer {
+//         width: 192%;    
+//     }
+
+//     .conclusion-t{
+//         margin-left: 3em;
+//         top: -10em;
+//     }
+
+//     .conclusion-t h3 {
+//         width: 21em;
+//         line-height: 158%;
+//         font-size: 181%;
+//         margin-left: 576%;       
+//         font-family: 'Tauri', sans-serif;
+//     }
+
+    
+// }
+
+// @media only screen and (max-width: 1024px) {
+
+//     .socialmedia{
+//         right: -66px;
+//     }
+
+//     #logo{
+//         margin-left: 6em;
+//         margin-top: 14px;   
+//     }
+
+//     p.info_about {
+//         left: -77%;
+//         top: 1em;    
+//     }
+
+//     .pres {
+//         left: 38em;
+//         top: -1em;    
+//     }
+
+//     .x{
+//         display:none;
+//     }
+    
+//     .skill-block{
+//         right: -1519px;   
+//     }
+
+//     .contact{
+//         left: 32em;    
+//     }
+
+//     footer {
+//         width: 188%;    
+//     }
+
+//     .conclusion-t{
+//         margin-left: 3em;
+//         top: -10em;
+//     }
+
+//     .conclusion-t h3 {
+//         width: 21em;
+//         line-height: 158%;
+//         font-size: 181%;
+//         margin-left: 158%;
+//         font-family: 'Tauri', sans-serif;
+//     }
+
+    
+// }
+
+
+
+
    
-/*Media Query for Tablet (768px)*/
-
-@media only screen and (max-width: 768px) {
-
-    .main-section{
-        margin-bottom: 51%;
-        width: 93%;
-        margin-left: 3%;
-    }
-
-    #portfolio{
-        width:93%;
-    }
-  
-}
-  
-/*Media Query for (640px)*/
-@media only screen and (max-width: 640px){
-
-    #masterhead {
-        width: 100%;
-    }
-
-   #logo{
-        width: 100%;
-        margin: 0;
-    }
-
-   nav{
-        margin-left: 23%;
-        text-align: center;
-        position: relative;
-        margin-right: 37%;
-        display: flex;
-        padding: 4%;
-    }
-
-   #about-me{
-        position: absolute;
-        height: 139%;
-    }
-
-   .main-section p{
-        float: left
-    }
-
-   img{
-        margin-left: -2%;
-        width: 104%;
-        height: 53%;
-    }
-
-   footer{
-        margin-top: 117%;
-        position: sticky;
-    }
-}
-  
-  
-  
-@media only screen and (max-width:414px){
-   nav{
-        margin-right:50%;
-   }
-   img{
-        width: 104%;
-        height: 30%;
-   }
-   #about-me{
-        position: absolute;
-        height: 166%;
-   }
-   footer{
-        margin-top: 252%;
-        position: sticky;
-   }
-}
-  
-@media only screen and (max-width:411px){
-
-    nav{
-        margin-right:49%;
-    }
-
-    img{
-        width: 104%;
-        height: 30%;
-    }
-
-    #about-me{
-        position: absolute;
-        height: 143%;
-    }
-
-    footer{
-        margin-top: 252%;
-        position: sticky;
-    }
-}
-  
-@media only screen and (max-width:375px){
-
-    nav{
-        margin-right:50%;
-    }
-
-    img{
-        width: 104%;
-        height: 30%;
-    }
-    #about-me{
-        position: absolute;
-        height: 166%;
-    }
-    footer{
-        margin-top: 252%;
-        position: sticky;
-    }
-}
-  
-@media only screen and (max-width:360px){
-
-    nav{
-        margin-right:53%;
-    }
-
-    img{
-        width: 104%;
-        height: 38%;
-    }
-
-    #about-me{
-        position: absolute;
-        height: 193%;
-    }
-    footer{
-        margin-top: 252%;
-        position: sticky;
-    }
-}
-
-
-  
-  

@@ -1,7 +1,8 @@
 .font_one{
     padding: 7%;
     float: right;
-    font-size: 7em;   
+    margin-top: 0;
+    font-size: 6em;
     line-height: 137px;
     color: brown;
     font-family: 'Tauri', sans-serif;
@@ -9,19 +10,20 @@
 
 .pres {
     position: relative;
+    height: 9em;
 }
 
 p.info_about {
-    position: relative;
-    padding: 9em;
-    width: 28em;
-    left: -8%;
-    top: 9em;
+    position: absolute;
+    width: 10em;
+    left: 4em;
+    top: 21em;
     color: lightslategray;
     font-size: 122%;
     transform: rotate(-90deg);
     font-family: 'Inconsolata', monospace;
 }
+
 
 // HOVER
 p.hp:hover{
